@@ -26,7 +26,7 @@ class GeneratorCommand extends Command
 
 	protected $signature = "generate:tests
 							{--app-namespace=? : Default: App\Http\Controllers }
-							{--test-namespace=Tests\Acceptance : Default: Tests\Acceptance }
+							{--test-namespace=Tests\Acceptance\ : Default: Tests\Acceptance }
 							";
 
 	protected $description = 'Generates Laravel HTTP Tests from Registered Routes';
@@ -40,6 +40,8 @@ class GeneratorCommand extends Command
 		$this->app_namespace = $this->option('app-namespace') === '?'
 			? app()->getNamespace()
 			: $this->option('app-namespace');
+
+		$this->app_namespace .= 'Http\\Controllers\\';
 
 		$this->test_namespace = $this->option('test-namespace');
 
