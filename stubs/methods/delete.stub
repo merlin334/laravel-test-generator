@@ -1,0 +1,12 @@
+    /** @see \{{controller_action}} */
+    public function test_{{route_slug}}()
+    {
+        //$response = $this->delete({{route}});
+
+        //$response->assertOk();
+
+        //$this->assertSoftDeleted('', [
+        //
+        //]);
+    }
+

@@ -1,0 +1,14 @@
+    /** @see \{{controller_action}} */
+    public function test_{{route_slug}}()
+    {
+        //$response = $this->post({{route}}, [
+        //
+        //]);
+
+        //$response->assertOk();
+
+        //$this->assertDatabaseHas('', [
+        //
+        //]);
+    }
+

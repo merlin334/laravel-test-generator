@@ -1,0 +1,8 @@
+    /** @see \{{controller_action}} */
+    public function test_{{route_slug}}()
+    {
+        //$response = $this->get({{route}});
+
+        //$response->assertOk();
+    }
+

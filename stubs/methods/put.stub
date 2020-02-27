@@ -1,0 +1,15 @@
+    /** @see \{{controller_action}} */
+    public function test_{{route_slug}}()
+    {
+
+        //$response = $this->put({{route}}, [
+        //
+        //]);
+
+        //$response->assertOk();
+
+        //$this->assertDatabaseHas('', [
+        //
+        //]);
+    }
+
